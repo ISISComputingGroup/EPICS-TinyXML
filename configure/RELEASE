@@ -43,6 +43,7 @@ SQLITE=$(SUPPORT)/sqlite
 LIBJSON=$(SUPPORT)/libjson
 UTILITIES=$(SUPPORT)/utilities
 PCRE=$(SUPPORT)/pcre
+MYSQL=$(SUPPORT)/MySQL
 
 ## add other modules here ##
 
