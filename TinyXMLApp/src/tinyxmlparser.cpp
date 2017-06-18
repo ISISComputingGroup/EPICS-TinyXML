@@ -25,6 +25,8 @@ distribution.
 #include <ctype.h>
 #include <stddef.h>
 
+#include <epicsExport.h>
+
 #include "tinyxml.h"
 
 //#define DEBUG_PARSER

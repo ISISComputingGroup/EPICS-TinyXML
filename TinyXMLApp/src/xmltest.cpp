@@ -17,6 +17,8 @@
 	_CrtMemState endMemState;
 #endif
 
+#include <epicsExport.h>
+
 #include "tinyxml.h"
 
 bool XmlTest (const char* testString, const char* expected, const char* found, bool noEcho = false);

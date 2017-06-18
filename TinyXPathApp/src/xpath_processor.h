@@ -48,7 +48,7 @@ class execution_error {public : execution_error (int i_) {i=i_;} int i;};
 class error_not_yet : public execution_error {public : error_not_yet () : execution_error (-2){}};
 
 /// XPath execution class
-class xpath_processor : public xpath_stream
+class epicsShareClass xpath_processor : public xpath_stream
 {
 public :
    /// Constructor

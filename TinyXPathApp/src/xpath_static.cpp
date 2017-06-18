@@ -27,6 +27,8 @@ distribution.
    \author Yves Berquin
 */
 
+#include <epicsExport.h>
+
 #include "xpath_static.h"
 
 namespace TinyXPath

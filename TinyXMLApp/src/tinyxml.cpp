@@ -29,6 +29,8 @@ distribution.
 #include <iostream>
 #endif
 
+#include <epicsExport.h>
+
 #include "tinyxml.h"
 
 FILE* TiXmlFOpen( const char* filename, const char* mode );

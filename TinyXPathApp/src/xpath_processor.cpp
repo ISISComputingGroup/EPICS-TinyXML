@@ -31,6 +31,9 @@ distribution.
  ::Added support for translate()  
 */
 #include <math.h>
+
+#include <epicsExport.h>
+
 #include "xpath_processor.h"
 #include "xml_util.h"
 

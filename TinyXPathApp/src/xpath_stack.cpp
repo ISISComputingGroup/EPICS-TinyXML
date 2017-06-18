@@ -27,6 +27,7 @@ distribution.
    \author Yves Berquin
 */
 
+#include <epicsExport.h>
 #include "xpath_stack.h"
 #include "xpath_processor.h"
 
